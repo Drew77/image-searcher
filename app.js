@@ -34,7 +34,7 @@ app.get('/search/:term', function(req, res){
     request({
         url: 'https://api.cognitive.microsoft.com/bing/v5.0/images/search?q=' + req.params.term + "&&count=150",
         headers: { //We can define headers too
-        "Ocp-Apim-Subscription-Key" : "1d0032b3fb834bb4a8719e641147baff"
+        "Ocp-Apim-Subscription-Key" : ""
     }},
         function(error, response, body){
         if (error){
