@@ -1,0 +1,19 @@
+{
+  "name": "image_searcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "node-bing-api": "^2.4.1",
+    "request": "^2.72.0"
+  }
+}
